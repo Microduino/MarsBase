@@ -108,7 +108,7 @@ void soil_matrix(uint8_t wait)
   {
     if (y == display.getWidth() * 8)
     {
-      uploaddata("soil", soil);
+      uploaddata("soil", soils);
       delay(100);
     }
     y--;
