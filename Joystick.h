@@ -19,7 +19,7 @@ Key KeyG(BACKPIN, INPUT);
 
 uint8_t INjoystick()
 {
-  if (KeyA.read(0, 10) == SHORT_PRESS || mOK == 1) //按下
+  if (KeyA.read(0, 20) == SHORT_PRESS || mOK == 1) //按下
   {
     mOK = 0;
     return JOYOK;
@@ -39,7 +39,7 @@ uint8_t INjoystick()
     mKey = 0;
     return JOYLEFT;
   }
-  else if (KeyE.read(800, 1000) == SHORT_PRESS || mKey == 4) //右
+  else if (KeyE.read(750, 960) == SHORT_PRESS || mKey == 4) //右
   {
     mKey = 0;
     return JOYRIGHT;

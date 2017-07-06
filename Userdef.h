@@ -2,7 +2,7 @@
 
 #define JOYSTICKPIN A6 //摇杆引脚
 #define BACKPIN     10 //返回引脚
-#define BUZZERPIN   12 //蜂鸣器引脚
+#define BUZZERPIN   8 //蜂鸣器引脚
 
 #define SOILLED     A0 //土壤湿度灯引脚
 #define SOILPIN     A1 //土壤湿度引脚
@@ -10,7 +10,7 @@
 #define SUNLED      A2 //太阳能灯引脚
 #define SUNPIN      A3 //太阳能光敏引脚
 
-#define WEATHERLED  8  //气象站灯引脚
+#define WEATHERLED  12  //气象站灯引脚
 
 #define MODEHOME    1 //主基地 留言   7
 #define MODELIGHT   2 //灯效         BREATH:8,9,10,11  BLINK:12,13,14,15
